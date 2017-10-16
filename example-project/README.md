@@ -8,7 +8,7 @@ How to use if, why you made it a little history about it etc.
 
 Else it's just like your own mini-repo 
 
-WARNING: Sarcasm and inside jokes may be found
+WARNING: Sarcasm and inside jokes may sneak its' way into the examples 
 
 ```
 / Your-Project-Name
