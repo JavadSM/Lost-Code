@@ -80,4 +80,4 @@ app.get("/vote", (req, res) => {
 
 //Listen on port
 var port = process.env.PORT || 8080;
-app.listen(port)
+app.listen(port);
