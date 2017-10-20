@@ -24,8 +24,25 @@ app.post("/vote", (req, res) => {
     }
     try {
         pathm = "/votes/" + data.userid;
+        try {
+            if(db.getData(pathm) == 1){
+                res.send("User already exist")
+                return false;
+            }
+        } catch (error) {
+            if(validateEmail(data.userid)){
+                console.log("No errors");
+            } else {
+                res.send("Wrong email");
+                return false;
+            }
+        }
+        db.push(pathm, 1, false);
+        res.send(true);
         return true;
     } catch(err){
+        console.log(path, data, err);
+        res.send("See console");
         return false;
     }
 });
