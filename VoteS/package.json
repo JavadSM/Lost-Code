@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javadsm/lostcode.git"
+    "url": "git+https://github.com/cjavad/lostcode.git"
   },
   "keywords": [
     "Vote",
@@ -20,9 +20,9 @@
   "author": "Javad Shafique",
   "license": "UNLICENCED",
   "bugs": {
-    "url": "https://github.com/javadsm/lostcode/issues"
+    "url": "https://github.com/cjavad/lostcode/issues"
   },
-  "homepage": "https://github.com/javadsm/lostcode#readme",
+  "homepage": "https://github.com/cjavad/lostcode#readme",
   "dependencies": {
     "express": "^4.16.2",
     "node-json-db": "^0.7.3",
